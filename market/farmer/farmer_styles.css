@@ -1,0 +1,43 @@
+.links_wrapper {
+	border-radius: 10px;
+	height: auto;
+	width : 260px;
+	margin: 0 auto;
+	margin-top : 100px;
+	background-color: #23A6D5;
+	padding: 25px;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+
+
+ .links_bucket a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #14171A;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: ;
+    font-size: 85%;
+	width : 256px;
+	
+
+}
