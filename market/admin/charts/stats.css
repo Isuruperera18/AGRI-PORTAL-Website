@@ -1,0 +1,51 @@
+.tables_wrapper {
+
+	border: 0px solid #606060;
+	border-radius: 15px;
+	background-color: #f5f8fa ;
+	opacity: 1;
+	overflow: hidden;
+	width: 720px;
+	height: auto;
+margin : auto;
+	margin-top : 20px;
+	
+	color: #555;
+	font-size: 14px;
+	padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom:0px;
+    padding-left: 0px;
+}
+
+table {
+	
+	margin-top: 10px;
+	
+	
+}
+
+.btn_wrapper{
+	
+	display : flex;
+	justify-content : center;
+	
+	
+}
+
+.table_wrapper {
+	
+	
+		display : flex;
+	justify-content : center;
+	
+}
+
+
+#graphCanvas {
+	
+	height : 720px;
+	width : 720px;
+	
+	
+}
