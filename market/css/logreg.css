@@ -1,0 +1,30 @@
+.reglog_wrapper {
+	border-radius: 24px;
+	height: 420px;
+	width : 512px;
+	margin: 0 auto;
+	margin-top : 10px;
+	background-color: #23A6D5;
+	padding: 25px;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 10s ease-in-out infinite;
+}
+
+.log_wrapper {
+	border-radius: 24px;
+	height: 256px;
+	width : 512px;
+	margin: 0 auto;
+	margin-top : 10px;
+	background-color: #23A6D5;
+	padding: 25px;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 10s ease-in-out infinite;
+}
+

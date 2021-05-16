@@ -1,0 +1,35 @@
+
+
+
+/* ------------------------------------------------------------------------------------ */
+.home_wrapper {
+	border: 0px solid #606060;
+	border-radius: 25px;
+	background-color: #f5f8fa ;
+	opacity: 1;
+	overflow: hidden;
+	width: 512px;
+	height: 512px;
+	margin: auto;
+	
+	color: #555;
+	font-size: 14px;
+	padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom:0px;
+    padding-left: 0px;
+}
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%;
+	}
+}

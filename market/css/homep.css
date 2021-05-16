@@ -1,0 +1,135 @@
+
+
+
+/* ------------------------------------------------------------------------------------ */
+.splash-container {
+	border: 0px solid #606060;
+	border-radius: 25px;
+
+	opacity: 1;
+	overflow: hidden;
+	width: 512px;
+	height: auto;
+	margin: auto;
+	
+	color: #555;
+	font-size: 14px;
+	padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom:0px;
+    padding-left: 0px;
+	margin-bottom : 50px;
+	
+
+}
+
+.splash, .getbtn {
+	
+		display : flex;
+	justify-content : center;
+	
+	
+}
+
+.splash ,.getbtn {
+	
+	font-size: 20px;
+	
+}
+
+
+
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+
+
+
+.products {
+	
+	
+	height : 420px;
+	width : auto;
+ background-image: url("product-bg.jpg");
+ background-color: #cccccc;
+
+
+	
+	
+	
+}
+
+.product1 {
+	
+	
+	 float :left;
+	 padding-left : 180px;
+	text-align : center;
+	
+	
+}
+
+.protext  {
+	
+	  border: 0px solid #606060;
+  border-radius: 25px;
+  background-color: #6441A5;
+	background-color: #f5f8fa ;
+  opacity: 0.75;
+
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+
+	
+	
+	
+}
+
+
+
+
+.proimage img {
+	
+	height : 250px;
+	width : 250px;
+	/*border: 2.5px solid #606060;*/
+	border-radius:50%;
+	margin-right : 2.5px;
+
+margin-top : 50px;
+margin-left : 20px;
+
+	
+	
+}
+
+.videowrapper {
+	
+	display : flex;
+	justify-content : center;
+	margin-top : 10px;
+
+	
+}
+
+.videowrapper iframe {
+	
+	height : 220px;
+	width  : 420px;
+	
+}
+
